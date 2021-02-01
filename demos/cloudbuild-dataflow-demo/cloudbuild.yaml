@@ -25,7 +25,7 @@ steps:
           --runner=DataflowRunner \
           --autoscalingAlgorithm=THROUGHPUT_BASED \
           --maxNumWorkers=10 \
-          --jobName=demo \
+          --jobName=DevopsAccelerator \
           --buildNumber=${buildNumber} \
           --subscription=dataflow_demo_subscription \
           --region=us-west1
